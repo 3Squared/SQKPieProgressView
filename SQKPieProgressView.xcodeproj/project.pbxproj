@@ -13,8 +13,6 @@
 		A3198B80184CC98100E52B4B /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = A3198B7E184CC98100E52B4B /* InfoPlist.strings */; };
 		A3198B82184CC98100E52B4B /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = A3198B81184CC98100E52B4B /* main.m */; };
 		A3198B86184CC98100E52B4B /* SQKAppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = A3198B85184CC98100E52B4B /* SQKAppDelegate.m */; };
-		A3198B89184CC98100E52B4B /* Main_iPhone.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = A3198B87184CC98100E52B4B /* Main_iPhone.storyboard */; };
-		A3198B8C184CC98100E52B4B /* Main_iPad.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = A3198B8A184CC98100E52B4B /* Main_iPad.storyboard */; };
 		A3198B8F184CC98100E52B4B /* SQKViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = A3198B8E184CC98100E52B4B /* SQKViewController.m */; };
 		A3198B91184CC98100E52B4B /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = A3198B90184CC98100E52B4B /* Images.xcassets */; };
 		A3198B98184CC98100E52B4B /* XCTest.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = A3198B97184CC98100E52B4B /* XCTest.framework */; };
@@ -22,6 +20,8 @@
 		A3198B9A184CC98100E52B4B /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = A3198B79184CC98100E52B4B /* UIKit.framework */; };
 		A3198BA2184CC98100E52B4B /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = A3198BA0184CC98100E52B4B /* InfoPlist.strings */; };
 		A3198BA4184CC98100E52B4B /* SQKPieProgressViewTests.m in Sources */ = {isa = PBXBuildFile; fileRef = A3198BA3184CC98100E52B4B /* SQKPieProgressViewTests.m */; };
+		A3198BAF184CC9EB00E52B4B /* SQKPieProgressView.m in Sources */ = {isa = PBXBuildFile; fileRef = A3198BAE184CC9EB00E52B4B /* SQKPieProgressView.m */; };
+		A3198BB2184CCA3700E52B4B /* SSDrawingUtilities.m in Sources */ = {isa = PBXBuildFile; fileRef = A3198BB1184CCA3700E52B4B /* SSDrawingUtilities.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -45,8 +45,6 @@
 		A3198B83184CC98100E52B4B /* SQKPieProgressView-Prefix.pch */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "SQKPieProgressView-Prefix.pch"; sourceTree = "<group>"; };
 		A3198B84184CC98100E52B4B /* SQKAppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = SQKAppDelegate.h; sourceTree = "<group>"; };
 		A3198B85184CC98100E52B4B /* SQKAppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = SQKAppDelegate.m; sourceTree = "<group>"; };
-		A3198B88184CC98100E52B4B /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main_iPhone.storyboard; sourceTree = "<group>"; };
-		A3198B8B184CC98100E52B4B /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main_iPad.storyboard; sourceTree = "<group>"; };
 		A3198B8D184CC98100E52B4B /* SQKViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = SQKViewController.h; sourceTree = "<group>"; };
 		A3198B8E184CC98100E52B4B /* SQKViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = SQKViewController.m; sourceTree = "<group>"; };
 		A3198B90184CC98100E52B4B /* Images.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Images.xcassets; sourceTree = "<group>"; };
@@ -55,6 +53,10 @@
 		A3198B9F184CC98100E52B4B /* SQKPieProgressViewTests-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "SQKPieProgressViewTests-Info.plist"; sourceTree = "<group>"; };
 		A3198BA1184CC98100E52B4B /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
 		A3198BA3184CC98100E52B4B /* SQKPieProgressViewTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = SQKPieProgressViewTests.m; sourceTree = "<group>"; };
+		A3198BAD184CC9EB00E52B4B /* SQKPieProgressView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = SQKPieProgressView.h; path = SQKPieProgressView/SQKPieProgressView.h; sourceTree = "<group>"; };
+		A3198BAE184CC9EB00E52B4B /* SQKPieProgressView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = SQKPieProgressView.m; path = SQKPieProgressView/SQKPieProgressView.m; sourceTree = "<group>"; };
+		A3198BB0184CCA3700E52B4B /* SSDrawingUtilities.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = SSDrawingUtilities.h; sourceTree = "<group>"; };
+		A3198BB1184CCA3700E52B4B /* SSDrawingUtilities.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = SSDrawingUtilities.m; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -114,10 +116,9 @@
 		A3198B7B184CC98100E52B4B /* SQKPieProgressView */ = {
 			isa = PBXGroup;
 			children = (
+				A3198BB3184CCA6000E52B4B /* SQKPieProgressView */,
 				A3198B84184CC98100E52B4B /* SQKAppDelegate.h */,
 				A3198B85184CC98100E52B4B /* SQKAppDelegate.m */,
-				A3198B87184CC98100E52B4B /* Main_iPhone.storyboard */,
-				A3198B8A184CC98100E52B4B /* Main_iPad.storyboard */,
 				A3198B8D184CC98100E52B4B /* SQKViewController.h */,
 				A3198B8E184CC98100E52B4B /* SQKViewController.m */,
 				A3198B90184CC98100E52B4B /* Images.xcassets */,
@@ -153,6 +154,18 @@
 				A3198BA0184CC98100E52B4B /* InfoPlist.strings */,
 			);
 			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		A3198BB3184CCA6000E52B4B /* SQKPieProgressView */ = {
+			isa = PBXGroup;
+			children = (
+				A3198BAD184CC9EB00E52B4B /* SQKPieProgressView.h */,
+				A3198BAE184CC9EB00E52B4B /* SQKPieProgressView.m */,
+				A3198BB0184CCA3700E52B4B /* SSDrawingUtilities.h */,
+				A3198BB1184CCA3700E52B4B /* SSDrawingUtilities.m */,
+			);
+			name = SQKPieProgressView;
+			path = ..;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -232,9 +245,7 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				A3198B8C184CC98100E52B4B /* Main_iPad.storyboard in Resources */,
 				A3198B91184CC98100E52B4B /* Images.xcassets in Resources */,
-				A3198B89184CC98100E52B4B /* Main_iPhone.storyboard in Resources */,
 				A3198B80184CC98100E52B4B /* InfoPlist.strings in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -255,7 +266,9 @@
 			buildActionMask = 2147483647;
 			files = (
 				A3198B8F184CC98100E52B4B /* SQKViewController.m in Sources */,
+				A3198BB2184CCA3700E52B4B /* SSDrawingUtilities.m in Sources */,
 				A3198B86184CC98100E52B4B /* SQKAppDelegate.m in Sources */,
+				A3198BAF184CC9EB00E52B4B /* SQKPieProgressView.m in Sources */,
 				A3198B82184CC98100E52B4B /* main.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -285,22 +298,6 @@
 				A3198B7F184CC98100E52B4B /* en */,
 			);
 			name = InfoPlist.strings;
-			sourceTree = "<group>";
-		};
-		A3198B87184CC98100E52B4B /* Main_iPhone.storyboard */ = {
-			isa = PBXVariantGroup;
-			children = (
-				A3198B88184CC98100E52B4B /* Base */,
-			);
-			name = Main_iPhone.storyboard;
-			sourceTree = "<group>";
-		};
-		A3198B8A184CC98100E52B4B /* Main_iPad.storyboard */ = {
-			isa = PBXVariantGroup;
-			children = (
-				A3198B8B184CC98100E52B4B /* Base */,
-			);
-			name = Main_iPad.storyboard;
 			sourceTree = "<group>";
 		};
 		A3198BA0184CC98100E52B4B /* InfoPlist.strings */ = {
@@ -475,6 +472,7 @@
 				A3198BA9184CC98100E52B4B /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		A3198BAA184CC98100E52B4B /* Build configuration list for PBXNativeTarget "SQKPieProgressViewTests" */ = {
 			isa = XCConfigurationList;
@@ -483,6 +481,7 @@
 				A3198BAC184CC98100E52B4B /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};
