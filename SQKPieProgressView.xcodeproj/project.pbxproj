@@ -20,8 +20,8 @@
 		A3198B9A184CC98100E52B4B /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = A3198B79184CC98100E52B4B /* UIKit.framework */; };
 		A3198BA2184CC98100E52B4B /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = A3198BA0184CC98100E52B4B /* InfoPlist.strings */; };
 		A3198BA4184CC98100E52B4B /* SQKPieProgressViewTests.m in Sources */ = {isa = PBXBuildFile; fileRef = A3198BA3184CC98100E52B4B /* SQKPieProgressViewTests.m */; };
-		A3198BAF184CC9EB00E52B4B /* SQKPieProgressView.m in Sources */ = {isa = PBXBuildFile; fileRef = A3198BAE184CC9EB00E52B4B /* SQKPieProgressView.m */; };
-		A3198BB2184CCA3700E52B4B /* SSDrawingUtilities.m in Sources */ = {isa = PBXBuildFile; fileRef = A3198BB1184CCA3700E52B4B /* SSDrawingUtilities.m */; };
+		A3198BB6184CD28900E52B4B /* SQKPieProgressView.m in Sources */ = {isa = PBXBuildFile; fileRef = A3198BB5184CD28900E52B4B /* SQKPieProgressView.m */; };
+		A3198BBC184CD51600E52B4B /* SSDrawingUtilities.m in Sources */ = {isa = PBXBuildFile; fileRef = A3198BBB184CD51600E52B4B /* SSDrawingUtilities.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -53,10 +53,10 @@
 		A3198B9F184CC98100E52B4B /* SQKPieProgressViewTests-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "SQKPieProgressViewTests-Info.plist"; sourceTree = "<group>"; };
 		A3198BA1184CC98100E52B4B /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
 		A3198BA3184CC98100E52B4B /* SQKPieProgressViewTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = SQKPieProgressViewTests.m; sourceTree = "<group>"; };
-		A3198BAD184CC9EB00E52B4B /* SQKPieProgressView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = SQKPieProgressView.h; path = SQKPieProgressView/SQKPieProgressView.h; sourceTree = "<group>"; };
-		A3198BAE184CC9EB00E52B4B /* SQKPieProgressView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = SQKPieProgressView.m; path = SQKPieProgressView/SQKPieProgressView.m; sourceTree = "<group>"; };
-		A3198BB0184CCA3700E52B4B /* SSDrawingUtilities.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = SSDrawingUtilities.h; sourceTree = "<group>"; };
-		A3198BB1184CCA3700E52B4B /* SSDrawingUtilities.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = SSDrawingUtilities.m; sourceTree = "<group>"; };
+		A3198BB4184CD28900E52B4B /* SQKPieProgressView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = SQKPieProgressView.h; path = Source/SQKPieProgressView.h; sourceTree = "<group>"; };
+		A3198BB5184CD28900E52B4B /* SQKPieProgressView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = SQKPieProgressView.m; path = Source/SQKPieProgressView.m; sourceTree = "<group>"; };
+		A3198BBA184CD51600E52B4B /* SSDrawingUtilities.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = SSDrawingUtilities.h; path = Source/SSDrawingUtilities.h; sourceTree = "<group>"; };
+		A3198BBB184CD51600E52B4B /* SSDrawingUtilities.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = SSDrawingUtilities.m; path = Source/SSDrawingUtilities.m; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -159,10 +159,10 @@
 		A3198BB3184CCA6000E52B4B /* SQKPieProgressView */ = {
 			isa = PBXGroup;
 			children = (
-				A3198BAD184CC9EB00E52B4B /* SQKPieProgressView.h */,
-				A3198BAE184CC9EB00E52B4B /* SQKPieProgressView.m */,
-				A3198BB0184CCA3700E52B4B /* SSDrawingUtilities.h */,
-				A3198BB1184CCA3700E52B4B /* SSDrawingUtilities.m */,
+				A3198BB4184CD28900E52B4B /* SQKPieProgressView.h */,
+				A3198BB5184CD28900E52B4B /* SQKPieProgressView.m */,
+				A3198BBA184CD51600E52B4B /* SSDrawingUtilities.h */,
+				A3198BBB184CD51600E52B4B /* SSDrawingUtilities.m */,
 			);
 			name = SQKPieProgressView;
 			path = ..;
@@ -265,10 +265,10 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				A3198BB6184CD28900E52B4B /* SQKPieProgressView.m in Sources */,
 				A3198B8F184CC98100E52B4B /* SQKViewController.m in Sources */,
-				A3198BB2184CCA3700E52B4B /* SSDrawingUtilities.m in Sources */,
+				A3198BBC184CD51600E52B4B /* SSDrawingUtilities.m in Sources */,
 				A3198B86184CC98100E52B4B /* SQKAppDelegate.m in Sources */,
-				A3198BAF184CC9EB00E52B4B /* SQKPieProgressView.m in Sources */,
 				A3198B82184CC98100E52B4B /* main.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
